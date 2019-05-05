@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kotlins Messenger</string>
+
+    <string name="text_hint_email">Email</string>
+    <string name="text_hint_password">Password</string>
+    <string name="text_login">Register</string>
+    <string name="text_hint_name">Username</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="back_to_registration">Back to Registration</string>
+    <string name="loginButton">Login</string>
+    <string name="select_photo_button">Choose Picture</string>
+</resources>
