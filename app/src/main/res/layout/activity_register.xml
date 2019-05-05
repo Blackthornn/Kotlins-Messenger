@@ -86,4 +86,13 @@
             android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" app:layout_constraintHorizontal_bias="0.498"
             android:text="@string/select_photo_button"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_width="150dp" android:layout_height="150dp"
+                                                  app:layout_constraintEnd_toEndOf="@+id/choosePictureRegisterBtn"
+                                                  app:layout_constraintStart_toStartOf="@+id/choosePictureRegisterBtn"
+                                                  app:layout_constraintBottom_toBottomOf="@+id/choosePictureRegisterBtn"
+                                                  app:layout_constraintTop_toTopOf="@+id/choosePictureRegisterBtn"
+                                                  app:civ_border_width="2dp"
+                                                  app:civ_border_color="@color/colorAccent"
+                                                  android:id="@+id/choosePhotoImageViewRegisterActivity"/>
 </android.support.constraint.ConstraintLayout>

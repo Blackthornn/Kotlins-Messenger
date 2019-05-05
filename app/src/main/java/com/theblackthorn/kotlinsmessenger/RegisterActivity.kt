@@ -12,6 +12,7 @@ import android.support.constraint.ConstraintLayout
 import android.util.Log
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
 import kotlinx.android.synthetic.main.activity_register.*
 import kotlinx.android.synthetic.main.activity_register.choosePictureRegisterBtn
@@ -76,8 +77,12 @@ class RegisterActivity : AppCompatActivity() {
 
             val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, selectedPhotoUri)
 
-            val bitmapDrawable = BitmapDrawable(bitmap)
-            choosePictureRegisterBtn.setBackgroundDrawable(bitmapDrawable)
+            choosePhotoImageViewRegisterActivity.setImageBitmap(bitmap)
+
+            choosePictureRegisterBtn.alpha = 0f
+
+//            val bitmapDrawable = BitmapDrawable(bitmap)
+//            choosePictureRegisterBtn.setBackgroundDrawable(bitmapDrawable)
         }
     }
 
@@ -120,8 +125,40 @@ class RegisterActivity : AppCompatActivity() {
         ref.putFile(selectedPhotoUri!!)
             .addOnSuccessListener {
                 Log.d("RegisterActivity", "Successfully uploaded image: ${it.metadata?.path}")
+
+                ref.downloadUrl.addOnSuccessListener {
+                    //it.toString()
+                    Log.d("RegisterActivity", "File Location: $it")
+
+                    saveUserToFirebaseDatabase(it.toString())
+
+                }
+                    .addOnFailureListener {
+                        Log.d("RegisterActivity", "Failed to download file as: ${it.message}")
+                    }
+            }
+            .addOnFailureListener {
+                Log.d("RegisterActivity", "Image not successfully uploaded as: ${it.message}")
             }
     }
+
+    private fun saveUserToFirebaseDatabase(profileImageUrl: String) {
+
+       val uid = FirebaseAuth.getInstance().uid ?: ""
+        val ref = FirebaseDatabase.getInstance().getReference("/users/$uid")
+
+        val user = User(uid, usernameEditTextRegisterPage.text.toString(), profileImageUrl)
+
+        ref.setValue(user)
+            .addOnSuccessListener {
+                Log.d("RegisterActivity", "Finally saved user to FirebaseDatabase")
+            }
+            .addOnFailureListener {
+                Log.d("RegisterActivity", "Could not save user to Firebase Database as: ${it.message}")
+            }
+    }
+
+    class User(val uid: String, val username: String, val profileImageUrl: String)
 
     override fun onResume() {
         super.onResume()
