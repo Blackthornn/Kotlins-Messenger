@@ -1,15 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-34:12
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/b99dc46b9d5223a39172fda31ece3d58/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha5] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/94690e589edc21e70e96e9046d841515/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/a57afd1310646d5399a53da9e07f539e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/fb8423c84710f7a25d112ac9b28ec364/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-database:16.0.4] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1dcd779c1f95c467f9c684b7332e92a8/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c88cdf715bcca8214456bd1005c835f5/AndroidManifest.xml:15:1-26:12
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c6a5682b5069fe2294a2f8d67666d627/AndroidManifest.xml:2:1-11:12
+MERGED from [xyz.schwaab:avvylib:0.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/91677a30c9fc924d37d345e161bb2ce1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.xwray:groupie:2.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c2f6a53ea0e80ae22d04eeae707a6950/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1231eebf862b06b50cbe087caad220ae/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/95d18d13e191986e7c23a2d6cbfed8d9/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/9c9c784646d20fc843220cd68fd521d4/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/62f18aed1204449357ad67dd89a50a8c/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c4930899b89087ffb338c3005b609749/AndroidManifest.xml:17:1-29:12
@@ -20,7 +25,6 @@ MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/Kintok
 MERGED from [com.android.support:support-v4:26.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/a2038428c601850a37a99e9aa378d93d/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/52d6de35e7708038297378e81c826991/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1fc884b43efd3f0e1e3a10ea19004cd2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1231eebf862b06b50cbe087caad220ae/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/2291425f55721a1117f561dfc1453ffb/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/3c3e3237c0f9a89d1b860e0709b9bb39/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/980562a80f2a1bd876cc380b0c069d35/AndroidManifest.xml:17:1-22:12
@@ -36,40 +40,47 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /Users/Kintokii/.g
 MERGED from [com.android.support:support-compat:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/3f2fa1660f8410d639904e177d1ac2b3/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/ce0413e4e265aff1a383483d6ec80d4b/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/3b4b49b7dce53a3e53641b8be300fd23/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/85d917ebf24cd344aeca4882f8268ec6/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/7797811ddd52780cf94e1671ee56ff9f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/a3ff83e69fa35da42928ca8e1892b30e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/4166e360882ee783bc01e04fb3e72342/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/bb60df7ed6f479e4810975593cfdec28/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/0a3323ff39f53bf85ba43f37d3615bff/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/bbdc41e70e64d8a204b17484f87d37fb/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/5d424f98bfa98a65fc2d91c1362b5a53/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/a71392c77f8f0d8a9d4296e36ed20a7c/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/b0b0fa89235850f27b8daa6cfc77701b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/bbdc41e70e64d8a204b17484f87d37fb/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:3:11-55
 		INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:70-116
 	android:versionCode
 		INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:5:5-32:19
 MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha5] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/94690e589edc21e70e96e9046d841515/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha5] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/94690e589edc21e70e96e9046d841515/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/fb8423c84710f7a25d112ac9b28ec364/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/fb8423c84710f7a25d112ac9b28ec364/AndroidManifest.xml:23:5-40:19
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c6a5682b5069fe2294a2f8d67666d627/AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c6a5682b5069fe2294a2f8d67666d627/AndroidManifest.xml:9:5-20
+MERGED from [com.xwray:groupie:2.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c2f6a53ea0e80ae22d04eeae707a6950/AndroidManifest.xml:11:5-12:19
+MERGED from [com.xwray:groupie:2.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c2f6a53ea0e80ae22d04eeae707a6950/AndroidManifest.xml:11:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/95d18d13e191986e7c23a2d6cbfed8d9/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/95d18d13e191986e7c23a2d6cbfed8d9/AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/62f18aed1204449357ad67dd89a50a8c/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/62f18aed1204449357ad67dd89a50a8c/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c4930899b89087ffb338c3005b609749/AndroidManifest.xml:22:5-27:19
@@ -88,12 +99,13 @@ MERGED from [com.android.support:support-compat:28.0.0] /Users/Kintokii/.gradle/
 MERGED from [com.android.support:support-compat:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/3f2fa1660f8410d639904e177d1ac2b3/AndroidManifest.xml:22:5-94
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/ce0413e4e265aff1a383483d6ec80d4b/AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/ce0413e4e265aff1a383483d6ec80d4b/AndroidManifest.xml:22:5-23:19
-	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/3f2fa1660f8410d639904e177d1ac2b3/AndroidManifest.xml:22:18-91
 	android:supportsRtl
 		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:10:13-39
 	android:label
 		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:8:13-45
+	android:appComponentFactory
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:12:13-43
+		REJECTED from [com.android.support:support-compat:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/3f2fa1660f8410d639904e177d1ac2b3/AndroidManifest.xml:22:18-91
 	android:roundIcon
 		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:9:13-58
 	android:icon
@@ -101,29 +113,57 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Kintokii/.gr
 	android:allowBackup
 		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:6:13-39
 	android:theme
-		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:11:13-44
-activity#com.theblackthorn.kotlinsmessenger.LoginActivity
-ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:12:9-13:20
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:13:13-44
+	tools:replace
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:11:13-56
+activity#com.theblackthorn.kotlinsmessenger.NewMessageActivity
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:14:9-17:20
+	android:theme
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:14:54-101
 	android:name
-		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:12:19-48
-activity#com.theblackthorn.kotlinsmessenger.RegisterActivity
-ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:14:9-20:20
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:14:19-53
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:15:13-16:65
+	android:value
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:16:24-63
 	android:name
-		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:14:19-51
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:15:24-70
+activity#com.theblackthorn.kotlinsmessenger.LatestMessagesActivity
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:theme
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:20:17-64
+	android:name
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:19:17-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:16:17-68
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:22:17-68
 	android:name
-		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:18:17-76
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:24:17-76
 	android:name
-		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.theblackthorn.kotlinsmessenger.LoginActivity
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:27:9-28:20
+	android:name
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:27:19-48
+activity#com.theblackthorn.kotlinsmessenger.RegisterActivity
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:29:9-30:20
+	android:name
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:29:19-51
+meta-data#preloaded_fonts
+ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:31:9-94
+	android:resource
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:31:51-92
+	android:name
+		ADDED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml:31:20-50
 uses-sdk
 INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/b99dc46b9d5223a39172fda31ece3d58/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/b99dc46b9d5223a39172fda31ece3d58/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha5] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/94690e589edc21e70e96e9046d841515/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha5] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/94690e589edc21e70e96e9046d841515/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/a57afd1310646d5399a53da9e07f539e/AndroidManifest.xml:20:5-44
@@ -136,6 +176,14 @@ MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/Kintokii/.gradl
 MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c88cdf715bcca8214456bd1005c835f5/AndroidManifest.xml:19:5-21:41
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c6a5682b5069fe2294a2f8d67666d627/AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c6a5682b5069fe2294a2f8d67666d627/AndroidManifest.xml:5:5-7:41
+MERGED from [xyz.schwaab:avvylib:0.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/91677a30c9fc924d37d345e161bb2ce1/AndroidManifest.xml:7:5-9:41
+MERGED from [xyz.schwaab:avvylib:0.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/91677a30c9fc924d37d345e161bb2ce1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie:2.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c2f6a53ea0e80ae22d04eeae707a6950/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie:2.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c2f6a53ea0e80ae22d04eeae707a6950/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1231eebf862b06b50cbe087caad220ae/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1231eebf862b06b50cbe087caad220ae/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/95d18d13e191986e7c23a2d6cbfed8d9/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/95d18d13e191986e7c23a2d6cbfed8d9/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/9c9c784646d20fc843220cd68fd521d4/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/9c9c784646d20fc843220cd68fd521d4/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/62f18aed1204449357ad67dd89a50a8c/AndroidManifest.xml:5:5-44
@@ -156,8 +204,6 @@ MERGED from [com.android.support:support-fragment:28.0.0] /Users/Kintokii/.gradl
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/52d6de35e7708038297378e81c826991/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1fc884b43efd3f0e1e3a10ea19004cd2/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1fc884b43efd3f0e1e3a10ea19004cd2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1231eebf862b06b50cbe087caad220ae/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1231eebf862b06b50cbe087caad220ae/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/2291425f55721a1117f561dfc1453ffb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/2291425f55721a1117f561dfc1453ffb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/3c3e3237c0f9a89d1b860e0709b9bb39/AndroidManifest.xml:20:5-44
@@ -188,6 +234,8 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Kintokii/.gr
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/ce0413e4e265aff1a383483d6ec80d4b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/3b4b49b7dce53a3e53641b8be300fd23/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/3b4b49b7dce53a3e53641b8be300fd23/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/85d917ebf24cd344aeca4882f8268ec6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/85d917ebf24cd344aeca4882f8268ec6/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/7797811ddd52780cf94e1671ee56ff9f/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/7797811ddd52780cf94e1671ee56ff9f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/a3ff83e69fa35da42928ca8e1892b30e/AndroidManifest.xml:20:5-44
@@ -198,14 +246,14 @@ MERGED from [com.android.support:print:28.0.0] /Users/Kintokii/.gradle/caches/tr
 MERGED from [com.android.support:print:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/bb60df7ed6f479e4810975593cfdec28/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/0a3323ff39f53bf85ba43f37d3615bff/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/0a3323ff39f53bf85ba43f37d3615bff/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/bbdc41e70e64d8a204b17484f87d37fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/bbdc41e70e64d8a204b17484f87d37fb/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/5d424f98bfa98a65fc2d91c1362b5a53/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/5d424f98bfa98a65fc2d91c1362b5a53/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/a71392c77f8f0d8a9d4296e36ed20a7c/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/a71392c77f8f0d8a9d4296e36ed20a7c/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/b0b0fa89235850f27b8daa6cfc77701b/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/b0b0fa89235850f27b8daa6cfc77701b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/bbdc41e70e64d8a204b17484f87d37fb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/bbdc41e70e64d8a204b17484f87d37fb/AndroidManifest.xml:20:5-44
 INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml
 INJECTED from /Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
@@ -258,6 +306,14 @@ MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/Kintokii/.gradl
 MERGED from [com.google.firebase:firebase-storage:16.0.4] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c88cdf715bcca8214456bd1005c835f5/AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from [com.google.firebase:firebase-database:16.0.4] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/1dcd779c1f95c467f9c684b7332e92a8/AndroidManifest.xml:23:22-64
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/95d18d13e191986e7c23a2d6cbfed8d9/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/95d18d13e191986e7c23a2d6cbfed8d9/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/95d18d13e191986e7c23a2d6cbfed8d9/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/95d18d13e191986e7c23a2d6cbfed8d9/AndroidManifest.xml:9:13-64
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/Kintokii/.gradle/caches/transforms-2/files-2.1/c4930899b89087ffb338c3005b609749/AndroidManifest.xml:23:9-26:75
 	android:exported
