@@ -22,14 +22,21 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.theblackthorn.kotlinsmessenger.NewMessageActivity"
+            android:name="com.theblackthorn.kotlinsmessenger.messages.ChatLogActivity"
             android:theme="@style/AppTheme.ActionBarEdited" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".LatestMessagesActivity" />
+                android:value=".messages.LatestMessagesActivity" />
         </activity>
         <activity
-            android:name="com.theblackthorn.kotlinsmessenger.LatestMessagesActivity"
+            android:name="com.theblackthorn.kotlinsmessenger.messages.NewMessageActivity"
+            android:theme="@style/AppTheme.ActionBarEdited" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".messages.LatestMessagesActivity" />
+        </activity>
+        <activity
+            android:name="com.theblackthorn.kotlinsmessenger.messages.LatestMessagesActivity"
             android:theme="@style/AppTheme.ActionBarEdited" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,9 +44,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.theblackthorn.kotlinsmessenger.LoginActivity" >
+        <activity android:name="com.theblackthorn.kotlinsmessenger.registerlogin.LoginActivity" >
         </activity>
-        <activity android:name="com.theblackthorn.kotlinsmessenger.RegisterActivity" >
+        <activity android:name="com.theblackthorn.kotlinsmessenger.registerlogin.RegisterActivity" >
         </activity>
 
         <meta-data

@@ -539,6 +539,7 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color actionBarTextWhite
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -933,6 +934,8 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id chatLogEditText
+id chatLogSendButton
 id checkbox
 id choosePhotoImageViewRegisterActivity
 id choosePictureLoginBtn
@@ -987,6 +990,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id info
 id invisible
 id italic
@@ -1033,6 +1037,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerViewChatLog
 id recyclerViewNewMsg
 id registerBtnRegisterPage
 id reverseSawtooth
@@ -1086,6 +1091,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id time
 id title
 id titleDividerNoCustom
@@ -1140,10 +1146,13 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_chat_log
 layout activity_latest_messages
 layout activity_login
 layout activity_new_message
 layout activity_register
+layout chat_from_row
+layout chat_to_row
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

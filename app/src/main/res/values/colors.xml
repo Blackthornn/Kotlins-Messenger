@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#B100CF</color>
+    <color name="colorPrimaryDark">#4A148C</color>
     <color name="colorAccent">#FFFFFF</color>
 
     <!-- 1st Gradient color -->
@@ -23,4 +23,6 @@
     <color name="colorRed_A400">#FF1744</color>
     <color name="colorRed_900">#B71C1C</color>
     <!-- ./ 4th Gradient color -->
+
+    <color name="actionBarTextWhite">#fff</color>
 </resources>

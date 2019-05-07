@@ -6,7 +6,7 @@
                                              android:layout_height="match_parent"
                                              android:background="@drawable/drawable_gradient_animation_list"
                                              android:id="@+id/constraintLayout"
-                                             tools:context=".RegisterActivity">
+                                             tools:context=".registerlogin.RegisterActivity">
 
 
     <LinearLayout
