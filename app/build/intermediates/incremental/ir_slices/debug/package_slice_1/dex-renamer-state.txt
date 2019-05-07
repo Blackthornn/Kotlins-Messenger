@@ -1,4 +1,4 @@
-#Tue May 07 12:08:03 AEST 2019
+#Wed May 08 07:01:26 AEST 2019
 base.0=/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/transforms/dexMerger/debug/1
 path.0=classes.dex
 renamed.0=classes.dex

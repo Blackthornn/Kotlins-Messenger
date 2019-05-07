@@ -934,8 +934,10 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id chatFromRowTextView
 id chatLogEditText
 id chatLogSendButton
+id chatToRowTextView
 id checkbox
 id choosePhotoImageViewRegisterActivity
 id choosePictureLoginBtn
@@ -1091,7 +1093,6 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
-id textView
 id time
 id title
 id titleDividerNoCustom
