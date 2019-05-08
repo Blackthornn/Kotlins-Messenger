@@ -117,6 +117,13 @@ class ChatLogActivity : AppCompatActivity() {
             .addOnSuccessListener {
                 chatLogEditText.text.clear()
             }
+
+        val latestMessageRef = FirebaseDatabase.getInstance().getReference("/latest-messages/$fromID/$toId")
+        latestMessageRef.setValue(chatMessage)
+
+        val latestMessageToRef = FirebaseDatabase.getInstance().getReference("latest-messages/$toId/$fromID")
+        latestMessageToRef.setValue(chatMessage)
+
     }
 
 }

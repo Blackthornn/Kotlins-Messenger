@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="27"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="26"
     build-mode="COLD"
-    density="560dpi"
+    density="420dpi"
     format="10"
+    ir-eligibility="FIELD_ADDED"
     plugin-version="3.4.0"
-    timestamp="1557279732908"
+    timestamp="1557286528870"
     token="8576101257754770239"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="136" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="49" />
     <task
         name="verifier"
-        duration="0" />
+        duration="44" />
+
+    <artifact
+        location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1557279486358"
+        timestamp="1557285325141"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
@@ -69,7 +74,45 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1557279732908"
-        verifier="COLD_SWAP_REQUESTED" />
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1557285880224"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_ADDED"
+        timestamp="1557286528870"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
 
 </instant-run>

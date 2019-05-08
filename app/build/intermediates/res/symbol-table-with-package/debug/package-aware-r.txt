@@ -1000,6 +1000,8 @@ id italic
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
+id latestMessageImageView
+id latestMessageTextView
 id left
 id light
 id line1
@@ -1041,6 +1043,7 @@ id radio
 id ratio
 id rectangles
 id recyclerViewChatLog
+id recyclerViewLatestMessages
 id recyclerViewNewMsg
 id registerBtnRegisterPage
 id reverseSawtooth
@@ -1109,6 +1112,7 @@ id up
 id useLogo
 id userNameTextViewNewMsg
 id usernameEditTextRegisterPage
+id usernameTextViewLatestMessage
 id visible
 id wide
 id withText
@@ -1155,6 +1159,7 @@ layout activity_new_message
 layout activity_register
 layout chat_from_row
 layout chat_to_row
+layout latest_message_row
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action

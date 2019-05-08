@@ -804,6 +804,10 @@
         "source": "/Users/Kintokii/.gradle/caches/transforms-2/files-2.1/a57afd1310646d5399a53da9e07f539e/res/anim/abc_popup_exit.xml"
     },
     {
+        "merged": "/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/res/merged/debug/layout_latest_message_row.xml.flat",
+        "source": "/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/src/main/res/layout/latest_message_row.xml"
+    },
+    {
         "merged": "/Users/Kintokii/Desktop/KotlinMessenger/KotlinsMessenger/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "/Users/Kintokii/.gradle/caches/transforms-2/files-2.1/a57afd1310646d5399a53da9e07f539e/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
