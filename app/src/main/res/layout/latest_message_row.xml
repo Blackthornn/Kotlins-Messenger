@@ -5,20 +5,30 @@
                                              android:layout_width="match_parent"
                                              android:layout_height="120dp">
 
-    <ImageView
-            android:layout_width="64dp"
-            android:layout_height="64dp" app:srcCompat="@android:drawable/star_big_on"
+    <xyz.schwaab.avvylib.AvatarView
+            app:avvy_border_color="@color/colorAccent"
+            app:avvy_border_highlight_color="#ff5900"
+            app:avvy_border_highlight_color_end="#bf15bc"
+            app:avvy_border_thickness="1dp"
+            app:avvy_border_thickness_highlight="2dp"
+            app:avvy_distance_to_border="3dp"
+            app:avvy_highlighted="true"
+            app:avvy_loading_arches="5"
+            app:avvy_loading_arches_degree_area="90"
+            android:layout_width="72dp"
+            android:layout_height="72dp" app:srcCompat="@android:drawable/star_big_on"
             android:id="@+id/latestMessageImageView"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"/>
     <TextView
-            android:text="Username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/usernameTextViewLatestMessage" app:layout_constraintStart_toEndOf="@+id/latestMessageImageView"
+            android:id="@+id/usernameTextViewLatestMessage"
+            app:layout_constraintStart_toEndOf="@+id/latestMessageImageView"
             android:layout_marginStart="16dp" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/latestMessageTextView" android:textStyle="bold"/>
+            app:layout_constraintBottom_toTopOf="@+id/latestMessageTextView" android:textStyle="bold"
+            android:fontFamily="@font/amita_bold" android:textSize="18sp"/>
     <TextView
             android:text="Latest Message"
             android:layout_width="0dp"

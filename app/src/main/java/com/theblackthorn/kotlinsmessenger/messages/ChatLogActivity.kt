@@ -80,6 +80,8 @@ class ChatLogActivity : AppCompatActivity() {
                     }
                 }
 
+                recyclerViewChatLog.scrollToPosition(adapter.itemCount - 1)
+
             }
 
             override fun onChildRemoved(p0: DataSnapshot) {
