@@ -934,9 +934,11 @@ id center_horizontal
 id center_vertical
 id chain
 id chains
+id chatFromRowImageView
 id chatFromRowTextView
 id chatLogEditText
 id chatLogSendButton
+id chatToRowImageView
 id chatToRowTextView
 id checkbox
 id choosePhotoImageViewRegisterActivity
@@ -992,7 +994,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView
 id info
 id invisible
 id italic

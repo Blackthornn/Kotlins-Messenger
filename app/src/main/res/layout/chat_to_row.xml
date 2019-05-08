@@ -13,14 +13,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/chatToRowTextView"
-            app:layout_constraintTop_toTopOf="@+id/imageView" android:layout_marginEnd="8dp"
-            app:layout_constraintEnd_toStartOf="@+id/imageView"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView" android:layout_marginBottom="8dp"/>
-    <ImageView
+            app:layout_constraintTop_toTopOf="@+id/chatFromRowImageView"
+            app:layout_constraintBottom_toBottomOf="@+id/chatFromRowImageView" android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toStartOf="@+id/chatToRowImageView"/>
+    <xyz.schwaab.avvylib.AvatarView
+            app:avvy_border_color="@color/colorAccent"
+            app:avvy_border_highlight_color="#ff5900"
+            app:avvy_border_highlight_color_end="#bf15bc"
+            app:avvy_border_thickness="1dp"
+            app:avvy_border_thickness_highlight="2dp"
+            app:avvy_distance_to_border="3dp"
+            app:avvy_highlighted="true"
+            app:avvy_loading_arches="5"
+            app:avvy_loading_arches_degree_area="90"
             android:layout_width="50dp"
             android:layout_height="50dp" app:srcCompat="@drawable/googleg_disabled_color_18"
-            android:id="@+id/imageView"
-            android:layout_marginTop="80dp"
+            android:id="@+id/chatToRowImageView"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="16dp"/>
 </android.support.constraint.ConstraintLayout>
